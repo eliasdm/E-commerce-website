@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-font-smoothing: " antialiased";
+    -moz-osx-fontsmoothing:"grayscale";
+    @apply bg-slate-100;
+}
+
